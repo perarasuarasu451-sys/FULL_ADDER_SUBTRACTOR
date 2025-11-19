@@ -46,11 +46,38 @@ Write the detailed procedure here
 
 **Full adder**
 
+```
+module full_adder (
+    input  wire a, b, cin,   // Inputs
+    output wire sum, carry   // Outputs
+);
+
+    // Logic equations
+    assign sum   = a ^ b ^ cin;                  // XOR for sum
+    assign carry = (a & b) | (b & cin) | (a & cin); // Majority function for carry
+
+endmodule
+
+```
+
 Program to design a full adder and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 
 <img width="857" height="243" alt="image" src="https://github.com/user-attachments/assets/70af2cc4-955a-4d80-9bde-3b74ab9f42ce" />
 
 **Full subtractor**
+
+```
+module full_subtractor (
+    input  wire a, b, bin,       // Inputs
+    output wire diff, borrow     // Outputs
+);
+
+    // Logic equations
+    assign diff   = a ^ b ^ bin;                  // Difference
+    assign borrow = (~a & b) | (~(a ^ b) & bin);  // Borrow logic
+
+endmodule
+```
 
 Program to design a full adder and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 

@@ -107,10 +107,10 @@ Developed by: PERARASU K RegisterNumber: 25004665
 **Output Timing Waveform**
 
 **Full adder**
-<img width="1230" height="293" alt="image" src="https://github.com/user-attachments/assets/6d5fb8bf-1c1b-454f-b5b6-8a0e9ad08a38" />
+![image](https://github.com/user-attachments/assets/3bc3543a-312f-4602-b767-8f7462e5c877)
 
 **Full subtractor**
-<img width="1230" height="293" alt="image" src="https://github.com/user-attachments/assets/9033c414-5df5-4454-af6b-d4c0b815beb6" />
+![image](https://github.com/user-attachments/assets/0d64db0f-5039-49e4-89e9-02676e122512)
 
 **Result:**
 

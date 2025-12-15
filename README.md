@@ -14,7 +14,7 @@ Software – Quartus prime
 
 **Full Adder and Full Subtractor**
 
-**Full Adder**
+
 
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
@@ -26,7 +26,7 @@ Carry = AB + ACin + BCin
 
 **Figure -1 FULL ADDER**
 
-**Full Subtractor**
+
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
@@ -37,6 +37,12 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+**Full Adder**
+<img width="429" height="395" alt="image" src="https://github.com/user-attachments/assets/cea4b0ff-2367-4b37-b036-f8aa2c7989b9" />
+
+**Full Subtractor**
+<img width="438" height="393" alt="image" src="https://github.com/user-attachments/assets/edfcfd83-6ce2-4f79-9888-52fec70072e4" />
+
 
 **Procedure**
 
